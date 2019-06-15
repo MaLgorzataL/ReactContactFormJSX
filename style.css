@@ -1,0 +1,168 @@
+body {
+    background-color: whitesmoke;
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.app {
+    border: 1px solid gray;
+}
+
+.contactForm {
+    background-color: white;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.contactItem {
+    background-color: rgb(177, 226, 226);
+    height: 100px;
+    margin: 10px 20px 10px -20px;
+    padding: 5px;
+}
+
+input {
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px;
+    display: inline-block;
+    width: 49%;
+}
+
+.imieform, .nazwiskoform, .emailform {
+    text-align: left;
+    font-size: 23px;
+    font-weight: 300;
+    display: inline-block;
+    text-decoration: underline solid rgb(214, 212, 212);
+    width: 49%;
+}
+
+.emailLabelForm {
+    margin-top: 30px;
+}
+
+.emailform {
+    width: 75%;
+}
+
+@media (max-width: 600px) {
+    .emailform {
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+.nazwiskoLabelForm {
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -25px;
+    width: 20%;
+}
+
+.nazwiskoform {
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 5px;
+    width: 20%;
+}
+
+button {
+    width: 100px;
+    height: 55px;
+    background-color: turquoise;
+    float: right;
+}
+
+img {
+    background-color: silver;
+    padding: 10px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+p {
+    display: inline-block;
+    
+}
+@media  (min-width: 601px) {
+    p {
+        font-size: 25px;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+@media  (max-width: 600px) {
+    p {
+        font-size: 21px;
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
+
+a {
+    display: block;
+    margin: 0;
+    color: gray;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -20px;
+}
+@media  (min-width: 601px) {
+    a {
+        font-size: 22px;
+        margin-left: 130px;
+    }
+}
+@media  (max-width: 600px) {
+    a {
+        font-size: 15px;
+        margin-left: 110px;
+        font-weight: 700;
+    };
+}
+
+.info {
+    background-color: rgb(177, 226, 226);
+    width: 20px;
+    height: 20px;
+    
+}
+@media  (min-width: 651px) {
+    .info {
+        position: relative;
+        margin-left: 80%;
+        margin-top: -80%;
+    }
+}
+@media  (max-width: 650px) {
+    .info {
+        position: relative;
+        margin-left: 90%;
+        margin-top: -80%;
+    }
+}
+
+
+.container {
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h4, img {
+    display: inline-block;
+}
+
+h2, hr {
+    display: block;
+}
