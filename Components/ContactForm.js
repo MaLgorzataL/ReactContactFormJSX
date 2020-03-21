@@ -1,9 +1,6 @@
-var ContactForm = React.createClass({
-  propTypes: {
-    contact: React.PropTypes.object.isRequired
-  },
-
-  render: function() {
+class ContactForm extends React.Component {
+  
+  render() {
     return (
         <div>
           <form className = {'contactForm'}>
@@ -15,8 +12,8 @@ var ContactForm = React.createClass({
             <input className = {'emailLabelForm'} type = {'email'} placeholder = {''} value = {'Email '}/>
             <br/>
             <input className = {'emailform'} type = {'email'} placeholder = {''} value = {this.props.contact.email + '                           '}/>
-            <button type = {'submit'}> "Dodaj kontakt") </button>
+            <button type = {'submit'}> Dodaj kontakt </button>
           </form>
         </div>
     )}
-    })
+    };

@@ -1,9 +1,6 @@
-var Contact = React.createClass({
-  propTypes: {
-    item: React.PropTypes.object.isRequired,
-  },
-
-  render: function() {
+class Contact extends React.Component {
+  
+  render() {
     return (
       <div className = {'contactItem'}>
         <img className ={'contactImage'} src= {'http://icons.veryicon.com/png/System/Danish%20Royalty%20Free/user.png'}/>
@@ -17,4 +14,4 @@ var Contact = React.createClass({
         }/>
     </div>
     )}
-  });
+  };
